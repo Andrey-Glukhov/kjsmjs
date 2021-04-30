@@ -13,9 +13,14 @@
   <?php wp_head(); ?>
 </head>
 
-
+<?php $wrapper_classes  = 'site-header';
+$wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';?>
 
 <body >
-  <header>
-  <?php include (TEMPLATEPATH . '/navigation.php'); ?>
+<header id="main-header" class="<?php echo esc_attr( $wrapper_classes ); ?>" role="banner">
+  <?php //include (TEMPLATEPATH . '/navigation.php'); 
+   get_template_part( 'navigation' ); 
+  ?>
 	</header>
+
+  
