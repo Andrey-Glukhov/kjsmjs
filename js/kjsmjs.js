@@ -165,8 +165,22 @@ function kjsmjsExpandSubMenu( el ) { // jshint ignore:line
 			} );
 		} );
 	};
-
+	
 	window.addEventListener( 'load', function() {
 		new navMenu( 'primary' );
+		if ($('.home-container').length) {
+			var myVideo = document.querySelector('.wp-block-video video');
+			var posterElement = document.querySelector('.wp-block-video .video_poster');;
+			gsap.to(posterElement, {
+				opacity: 0,
+				duration: 1,
+				onComplete: function() {
+					posterElement.style.display = 'none';
+					myVideo.play();
+				}
+			})
+		}
+		
 	} );
 }() );
+

@@ -781,3 +781,14 @@ header
 .primary-navigation .menu-item-description > span {
   display: inline-block;
 }
+
+.wp-block-video .video_poster {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
