@@ -72,25 +72,6 @@ li {
   font-size: 5.3rem;
   line-height: 6rem;
 }
-@media only screen and (max-width: 1200px) {
-    .back_black h2 {
-        font-size: 4.8rem;
-      }
-}
-@media only screen and (max-width: 992px) {
-    .back_black h2 {
-        font-size: 3.4rem;
-        line-height: 4rem;
-      }
-}
-
-@media only screen and (max-width: 400px) {
-    .back_black h2 {
-        font-size: 2.9rem;
-        line-height: 3.4rem;
-      }
-}
-
 .back_black p {
   font-family: "SourceSerif4-Regular", serif;
   font-size: 2.3rem;
@@ -115,6 +96,7 @@ li {
   color: #ffff;
   font-size: 3.8rem;
   padding: 20px 10px;
+  margin-bottom: 80px;
 }
 .back_black .wp-block-group__inner-container {
   margin-bottom: 80px;
@@ -167,99 +149,150 @@ li {
   background-repeat: no-repeat;
 }
 .wp-block-image {
-	margin-bottom: 0;
-  }
-  .home-container {
-	margin-top: 60px;
-	padding-bottom: 60px;
-  }
-  .back_red {
-	background-color: #ff7b7f;
-  }
-  .wpcf7-form-control {
-	border: none;
-	font-family: "Brandon_reg", sans-serif;
-	font-size: 1rem;
-	color: #000;
-	width: 100%;
-  }
-  .back_red label {
-	width: 100%;
-  }
-  textarea.wpcf7-form-control {
-	max-height: 90px;
-  }
-  .back_img_02 img,
-  .absolute_image img {
-	width: 40%;
-	height: auto;
-  }
-  .back_img_02 .size-full {
-	height: 100%;
-	display: flex;
-	align-items: center;
-  }
-  .home_quote{
-	  color: #ffffff;
-	  font-family: "SourceSerif4-Regular";
-	  font-size: 2rem;
-	  margin: 35px 20px 10px 20px;
-  }
-  .home_quote_big{
-	  color: #ffffff;
-	  font-family: "SourceSerif4-Regular";
-	  font-size: 4rem;
-  }
-  .back_img_03{
-	  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
-	  background-position: center;
-	  background-size: cover;
-	  background-repeat: no-repeat;
-  }
-.absolute_image{
-    position: absolute;
+  margin-bottom: 0;
+}
+.home-container {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.back_red {
+  background-color: #ff7b7f;
+}
+.wpcf7-form-control {
+  border: none;
+  font-family: "Brandon_reg", sans-serif;
+  font-size: 1rem;
+  color: #000;
+  width: 100%;
+}
+.back_red label {
+  width: 100%;
+}
+textarea.wpcf7-form-control {
+  max-height: 90px;
+}
+.back_img_02 img,
+.absolute_image img {
+  width: 40%;
+  height: auto;
+}
+.back_img_02 .size-full {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.home_quote {
+  color: #ffffff;
+  font-family: "SourceSerif4-Regular";
+  font-size: 2rem;
+  margin: 35px 20px 10px 20px;
+}
+.home_quote_big {
+  color: #ffffff;
+  font-family: "SourceSerif4-Regular";
+  font-size: 4rem;
+}
+.back_img_03 {
+  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.absolute_image {
+  position: absolute;
 }
 .back_red h2,
-.back_red p{
-    font-family: "SourceSerif4-Bold", serif;
-    color: #ffff;
+.back_red p {
+  font-family: "SourceSerif4-Bold", serif;
+  color: #ffff;
+  font-size: 1.4rem;
+  padding: 20px 0 0 0;
+}
+input.wpcf7-form-control.wpcf7-submit {
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  color: #ffffff;
+  text-decoration: none;
+  background: transparent;
+  width: fit-content;
+}
+.form_submit_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.back_red .wp-block-group {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.back_yellow {
+  background-color: #ffc400;
+  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/KJSMJS_grid-10.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.back_yellow h2 {
+  font-family: "SourceSerif4-Bold", serif;
+  color: #ffff;
+  font-size: 1.4rem;
+  padding: 20px 0 0 0;
+}
+.video_col .wp-block-video {
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .back_black h2 {
+    font-size: 4.8rem;
+  }
+  .back_img_01 h2 {
+    font-size: 3.2rem;
+  }
+  .back_black p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .back_black h2 {
+    font-size: 3.4rem;
+    line-height: 4rem;
+  }
+  .back_img_01 h2 {
+    font-size: 3rem;
+  }
+  .back_black p {
     font-size: 1.4rem;
-    padding: 20px 0 0 0;
+  }
 }
-input.wpcf7-form-control.wpcf7-submit{
-    border: 1px solid #ffffff;
-    border-radius: 7px;
-    color: #ffffff;
-    text-decoration: none;
-    background: transparent;
-    width: fit-content;
+@media only screen and (max-width: 767px) {
+    .back_yellow{
+    padding-bottom: 80%;
+    }
+    .video_col .wp-block-video {
+        margin-bottom: -7px;
+    }
+    .home-container{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
-.form_submit_wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+
+@media only screen and (max-width: 400px) {
+  .back_black h2 {
+    font-size: 2.9rem;
+    line-height: 3.4rem;
+  }
+  .back_img_01 h2 {
+    font-size: 2.3rem;
+  }
+  .back_black p {
+    font-size: 1.1rem;
+  }
 }
-.back_red .wp-block-group{
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-.back_yellow{
-background-color: #ffc400;
-background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/KJSMJS_grid-10.png);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-.back_yellow h2{
-    font-family: "SourceSerif4-Bold", serif;
-    color: #ffff;
-    font-size: 1.4rem;
-    padding: 20px 0 0 0;
-}
-.video_col .wp-block-video{
-margin-bottom: 60px;
-}
+
 /*--------------------------------------------------------------
 header
 --------------------------------------------------------------*/
@@ -274,7 +307,7 @@ header
   justify-content: space-between;
   position: absolute;
   right: 0;
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 767px) {
@@ -341,7 +374,7 @@ header
 
 .primary-navigation {
   position: absolute;
-  top: 30px;
+  top: 0;
   right: 0;
   color: #000;
   /* font-size: var(--primary-nav--font-size); */
@@ -457,7 +490,7 @@ header
 
 .primary-navigation > div > .menu-wrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -472,6 +505,9 @@ header
 
   .primary-navigation > div > .menu-wrapper ul {
     padding-left: 0;
+  }
+  .primary-navigation > div > .menu-wrapper li {
+    text-align: center;
   }
 }
 
@@ -656,6 +692,13 @@ header
   .primary-navigation .primary-menu-container > ul > .menu-item > a {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .primary-navigation .primary-menu-container > ul > li#menu-item-fb > a,
+  .primary-navigation .primary-menu-container > ul > li#menu-item-inst > a,
+  .primary-navigation .primary-menu-container > ul > li#menu-item-lnk > a {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
   }
 
   .primary-navigation
