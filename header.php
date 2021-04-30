@@ -18,9 +18,9 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';?>
 
 <body >
 <header id="main-header" class="<?php echo esc_attr( $wrapper_classes ); ?>" role="banner">
-  <?php //include (TEMPLATEPATH . '/navigation.php'); 
+  <div class="container"><?php //include (TEMPLATEPATH . '/navigation.php'); 
    get_template_part( 'navigation' ); 
-  ?>
+  ?></div>
 	</header>
 
   

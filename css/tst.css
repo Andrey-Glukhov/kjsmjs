@@ -62,7 +62,6 @@ li {
 }
 
 /*----------home---------------------------------*/
-
 .back_black {
   background-color: black;
   color: #ffc400;
@@ -167,55 +166,55 @@ li {
   background-repeat: no-repeat;
 }
 .wp-block-image {
-	margin-bottom: 0;
-  }
-  .home-container {
-	margin-top: 60px;
-	padding-bottom: 60px;
-  }
-  .back_red {
-	background-color: #ff7b7f;
-  }
-  .wpcf7-form-control {
-	border: none;
-	font-family: "Brandon_reg", sans-serif;
-	font-size: 1rem;
-	color: #000;
-	width: 100%;
-  }
-  .back_red label {
-	width: 100%;
-  }
-  textarea.wpcf7-form-control {
-	max-height: 90px;
-  }
-  .back_img_02 img,
-  .absolute_image img {
-	width: 40%;
-	height: auto;
-  }
-  .back_img_02 .size-full {
-	height: 100%;
-	display: flex;
-	align-items: center;
-  }
-  .home_quote{
-	  color: #ffffff;
-	  font-family: "SourceSerif4-Regular";
-	  font-size: 2rem;
-	  margin: 35px 20px 10px 20px;
-  }
-  .home_quote_big{
-	  color: #ffffff;
-	  font-family: "SourceSerif4-Regular";
-	  font-size: 4rem;
-  }
-  .back_img_03{
-	  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
-	  background-position: center;
-	  background-size: cover;
-	  background-repeat: no-repeat;
-  }
+  margin-bottom: 0;
+}
+.home-container {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.back_red {
+  background-color: #ff7b7f;
+}
+.wpcf7-form-control {
+  border: none;
+  font-family: "Brandon_reg", sans-serif;
+  font-size: 1rem;
+  color: #000;
+  width: 100%;
+}
+.back_red label {
+  width: 100%;
+}
+textarea.wpcf7-form-control {
+  max-height: 90px;
+}
+.back_img_02 img,
+.absolute_image img {
+  width: 40%;
+  height: auto;
+}
+.back_img_02 .size-full {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.home_quote{
+    color: #ffffff;
+    font-family: "SourceSerif4-Regular";
+    font-size: 2rem;
+    margin: 35px 20px 10px 20px;
+}
+.home_quote_big{
+    color: #ffffff;
+    font-family: "SourceSerif4-Regular";
+    font-size: 4rem;
+}
+.back_img_03{
+    background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .absolute_image{
     position: absolute;
 }
@@ -277,7 +276,7 @@ header
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .menu-button-container {
     display: flex;
   }
@@ -330,7 +329,7 @@ header
 } */
 
 .primary-navigation-open .menu-button-container {
-  /* width: 100%; */
+  width: 100%;
   z-index: 500;
   background-color: #fff;
 }
@@ -362,11 +361,11 @@ header
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
-  transition: all 0.6s ease-in-out;
+  background-color: 10px;
+  transition: all 0.15s ease-in-out;
   /* transform: translateY(var(--global--spacing-vertical)); */
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation > .primary-menu-container {
     height: 100vh;
     z-index: 499;
@@ -375,7 +374,9 @@ header
     border: 2px solid transparent;
   }
 
-  .primary-navigation > .primary-menu-container {
+  .has-logo.has-title-and-tagline
+    .primary-navigation
+    > .primary-menu-container {
     position: fixed;
     transform: translateY(0) translateX(100%);
   }
@@ -395,7 +396,7 @@ header
     border: 2px solid 2px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation-open .primary-navigation {
     width: 100%;
     position: fixed;
@@ -409,7 +410,7 @@ header
   opacity: 1;
   transform: translateY(0);
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation-open
     .has-logo.has-title-and-tagline
     .primary-navigation
@@ -417,7 +418,7 @@ header
     transform: translateX(0) translateY(0);
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation {
     position: relative;
     margin-left: auto;
@@ -465,7 +466,7 @@ header
   padding-left: 0;
   position: relative;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation > div > .menu-wrapper {
     padding-bottom: 100px;
   }
@@ -479,9 +480,8 @@ header
   display: block;
   position: relative;
   width: 100%;
-  padding: 10px 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation > div > .menu-wrapper li {
     margin: 0;
     width: inherit;
@@ -507,7 +507,7 @@ header
 .primary-navigation > div > .menu-wrapper .sub-menu-toggle:focus {
   outline: 2px solid #000;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation > div > .menu-wrapper .sub-menu-toggle {
     display: none;
   }
@@ -548,7 +548,7 @@ header
 .primary-navigation > div > .menu-wrapper > li > .sub-menu {
   position: relative;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation > div > .menu-wrapper > li > .sub-menu {
     left: 0;
     margin: 0;
@@ -643,7 +643,7 @@ header
 .primary-navigation .primary-menu > .menu-item:hover > a {
   color: var(--primary-nav--color-link-hover);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation .primary-menu-container {
     margin-right: -10px;
     margin-left: -10px;
@@ -676,7 +676,7 @@ header
   padding: 10зч 0;
   text-decoration: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation a {
     display: block;
     /* font-family: var(--primary-nav--font-family);
@@ -732,12 +732,12 @@ header
 .primary-navigation .sub-menu .sub-menu {
   border: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation .sub-menu > .menu-item > .sub-menu {
     padding: 0;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 481px) {
   .primary-navigation .sub-menu .menu-item:last-child {
     margin-bottom: 0;
   }
@@ -749,7 +749,7 @@ header
   /* font-size: var(--primary-nav--font-size-sub-menu-mobile);
 	font-style: var(--primary-nav--font-style-sub-menu-mobile); */
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation .sub-menu .menu-item > a {
     /* font-size: var(--primary-nav--font-size-sub-menu);
 		font-style: var(--primary-nav--font-style); */
@@ -759,7 +759,7 @@ header
 .primary-navigation .menu-item-has-children > .svg-icon {
   display: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 482px) {
   .primary-navigation .menu-item-has-children > .svg-icon {
     display: inline-block;
     height: 100%;
