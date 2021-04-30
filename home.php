@@ -5,10 +5,12 @@
 get_header(); ?>
 
 <div class="home-container">
-HOME PAGE
-<?php if (have_posts() ) : while ( have_posts() ) : the_post(); 
-	the_content();
-endwhile;
+<?php if (have_posts() ) : while ( have_posts() ) : the_post();?>
+<div class="container">
+<?php the_content();?>
+</div>
+
+<?php endwhile;
 endif; ?>
 </div>
 

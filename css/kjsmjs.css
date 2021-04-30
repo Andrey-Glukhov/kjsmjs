@@ -1,0 +1,137 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+}
+/*----------global---------------------------------*/
+input,
+textarea,
+select,
+a,
+button {
+  outline: none;
+}
+input,
+textarea,
+select,
+a,
+button:focus {
+  outline: none;
+}
+input,
+textarea,
+select,
+a,
+button:active {
+  outline: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "Brandon_reg";
+  src: url("./Brandon_reg.woff2") format("woff2"),
+    url("./Brandon_reg.woff") format("woff");
+}
+@font-face {
+  font-family: "SourceSerif4-Bold";
+  src: url("./SourceSerif4-Bold.woff2") format("woff2"),
+    url("./SourceSerif4-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "SourceSerif4-Regular";
+  src: url("./SourceSerif4-Regular.woff2") format("woff2"),
+    url("./SourceSerif4-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Brandon_bld";
+    src: url("./Brandon_bld.woff2") format("woff2"),
+      url("./Brandon_bld.woff") format("woff");
+  }
+/*----------home---------------------------------*/
+.back_black {
+  background-color: black;
+  color: #ffc400;
+}
+.back_black h2 {
+  font-family: "SourceSerif4-Bold", serif;
+  font-size: 5.3rem;
+  line-height: 6rem;
+}
+.back_black p {
+  font-family: "SourceSerif4-Regular", serif;
+  font-size: 2.3rem;
+}
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.back_img_01 {
+  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-mary-taylor-5896668-min.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back_img_01 h2 {
+  font-family: "SourceSerif4-Bold", serif;
+  color: #ffff;
+  font-size: 3.8rem;
+  padding: 20px 10px;
+}
+.back_black .wp-block-group__inner-container {
+  margin-bottom: 80px;
+}
+.back_black .wp-block-group {
+  padding: 20px 10px;
+}
+.button_home {
+  font-family: "Brandon_reg", sans-serif;
+  width: fit-content;
+  border-radius: 7px;
+  padding: 6px 12px;
+  margin: 20px 10px;
+}
+.button_home.yellow {
+  border: 1px solid #ffc400;
+  color: #ffc400;
+  text-decoration: none;
+}
+.button_home.white {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.no-padding-col {
+  padding: 0;
+}
+.home_square_img img {
+  width: 100%;
+  height: auto;
+}
+.square_section h2 {
+  font-family: "Brandon_bld", sans-serif;
+  font-size: 1.7rem;
+  position: absolute;
+  padding: 6px 12px;
+  color: #ffffff;
+}
+.back_img_02{
+    background-image:url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/Screenshot-2021-04-30-at-13.27.43.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
