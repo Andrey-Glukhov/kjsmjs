@@ -79,7 +79,6 @@ li {
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 60px;
 }
 .row.display-flex > [class*="col-"] {
   display: flex;
@@ -87,7 +86,7 @@ li {
   justify-content: space-between;
 }
 .back_img_01 {
-  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-mary-taylor-5896668-min.png);
+  background-image: url(https://kenjestadmaakjestad.nl/wp-content/uploads/2021/04/pexels-mary-taylor-5896668-min.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,7 +143,7 @@ li {
   color: #ffffff;
 }
 .back_img_02 {
-  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/Screenshot-2021-04-30-at-13.27.43.png);
+  background-image: url(https://kenjestadmaakjestad.nl/wp-content/uploads/2021/04/Screenshot-2021-04-30-at-13.27.43.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -194,7 +193,7 @@ textarea.wpcf7-form-control {
   font-size: 4rem;
 }
 .back_img_03 {
-  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
+  background-image: url(https://kenjestadmaakjestad.nl/wp-content/uploads/2021/04/pexels-remy-van-gelder-5199011-scaled.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,7 +228,7 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 .back_yellow {
   background-color: #ffc400;
-  background-image: url(http://localhost:8888/kjsmjs/wordpress/wp-content/uploads/2021/04/KJSMJS_grid-10.png);
+  background-image: url(https://kenjestadmaakjestad.nl/wp-content/uploads/2021/04/KJSMJS_grid-10.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,21 +240,17 @@ input.wpcf7-form-control.wpcf7-submit {
   padding: 20px 0 0 0;
 }
 .video_col .wp-block-video {
-  /* margin-bottom: 60px; */
-  margin: 0;
+  margin-bottom: 60px;
 }
-.video_col .wp-block-video video {
-  opacity: 0;
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: transparent;
+	font-family: "Brandon_reg", sans-serif;
+    font-size: 1rem;
+	color:#fff;
+	padding:0;
+	margin: 2em 0.5em 1em;
 }
 
-.wpcf7 form.sent .wpcf7-response-output {
-  border-color: transparent;
-  font-family: "Brandon_reg", sans-serif;
-  font-size: 1rem;
-  color: #fff;
-  padding: 0;
-  margin: 2em 0.5em 1em;
-}
 @media only screen and (max-width: 1200px) {
   .back_black h2 {
     font-size: 4.8rem;
@@ -281,16 +276,16 @@ input.wpcf7-form-control.wpcf7-submit {
   }
 }
 @media only screen and (max-width: 767px) {
-  .back_yellow {
+    .back_yellow{
     padding-bottom: 80%;
-  }
-  .video_col .wp-block-video {
-    margin-bottom: -7px;
-  }
-  .home-container {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
+    }
+    .video_col .wp-block-video {
+        margin-bottom: -7px;
+    }
+    .home-container{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -305,15 +300,14 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 1.1rem;
   }
 }
-
 /*--------------------------------------------------------------
 text-based page
 --------------------------------------------------------------*/
-.page_header {
-  width: 100%;
-  height: auto;
-  min-height: 55vh;
-  margin-bottom: 20px;
+.page_header{
+	width:100%;
+	height:auto;
+	min-height:55vh;
+	margin-bottom:20px;
 }
 /*--------------------------------------------------------------
 header
@@ -848,12 +842,12 @@ header
 }
 
 .wp-block-video .video_poster {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

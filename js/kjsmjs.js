@@ -167,16 +167,23 @@ function kjsmjsExpandSubMenu( el ) { // jshint ignore:line
 	};
 	
 	window.addEventListener( 'load', function() {
+		//document.addEventListener('DOMContentLoaded', function() {
+			// Ваш скрипт
 		new navMenu( 'primary' );
 		if ($('.home-container').length) {
 			var myVideo = document.querySelector('.wp-block-video video');
-			var posterElement = document.querySelector('.wp-block-video .video_poster');;
+			var posterElement = document.querySelector('.wp-block-video .video_poster');
+			myVideo.style.opacity = "1";
 			gsap.to(posterElement, {
 				opacity: 0,
-				duration: 1,
-				onComplete: function() {
-					posterElement.style.display = 'none';
+				duration: 3,
+				ease: "power4.out",
+				onStart: function() {
 					myVideo.play();
+				},
+				onComplete: function() {
+					//posterElement.style.display = 'none';	
+					//myVideo.play();				
 				}
 			})
 		}
